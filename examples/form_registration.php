@@ -4,7 +4,7 @@ use KnowEx\Sgd\Sgd;
 
 require '../src/Sgd.php';
 
-$sgd = new Sgd('INSERT_API_KEY_HERE');
+$sgd = new Sgd('USER_NAME','API_KEY');
 
 print_r($sgd->request('POST', '/registration', [
     'gender' => 'male',
@@ -15,7 +15,7 @@ print_r($sgd->request('POST', '/registration', [
     'postalCode' => '64295',
     'city' => 'Darmstadt',
     'country' => 'DE',
-    'phone' => '+491706585119',
+    'phone' => '+4917012345678',
     'email' => 'max.mustermann@gmail.com',
     'bankTransfer' => true,
     'iban' => '***************8200',
