@@ -60,6 +60,7 @@ class Sgd
                 break;
 
             default:
+                curl_setopt($curl, CURLOPT_POST, 0);
                 if ($data)
                 {
                     $url = sprintf('%s?%s', $url, http_build_query($data));
