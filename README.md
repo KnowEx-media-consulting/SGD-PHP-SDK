@@ -165,6 +165,9 @@ Formularname (max 255 Zeichen)
 #### courseCode (Pflichtfeld)
 Kursnummer (max 8 Zeichen)
 
+#### courseCodeSecond (optional)
+Kursnummer (max 8 Zeichen)
+
 #### vtnr (optional)
 Format: '775235'
 
