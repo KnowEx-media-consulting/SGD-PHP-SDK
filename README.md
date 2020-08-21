@@ -66,104 +66,35 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 
 ## Mögliche Argumente
 
-### Angaben zur Person
-#### gender (Pflichtfeld)
-Geschlecht<br>
-Mögliche Werte: "male, female"
+| Feldname |  |  Beschreibung |
+|----------|:-------------:|------|
+| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
+| firstName | Pflichtfeld | Vorname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
+| lastName | Pflichtfeld | Nachname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
+| birthday | Pflichtfeld | Geburtsdatum<br>Format: "JJJJ-MM-TT" |
+| street | Pflichtfeld | Straße<br>Buchstaben, Zahlen, Leerzeichen, Punkt und Bindestrich (max 80 Zeichen) |
+| houseNumber | optional | Hausnummer<br>Buchstaben, Zahlen, Leerzeichen und Bindestrich (max 20 Zeichen) |
+| postalCode | Pflichtfeld | Postleitzahl (max 10 Zeichen) |
+| city | Pflichtfeld | Wohnort (max 80 Zeichen) |
+| country | Pflichtfeld | Land<br>Format: ISO 3166 ALPHA-2, z.B "DE" (max 2 Zeichen) |
+| phone | Pflichtfeld | Telefonnummer (max 20 Zeichen) |
+| email | Pflichtfeld | E-Mail-Adresse<br>Format: nach RFC3696, http://tools.ietf.org/html/rfc3696 (max 255 Zeichen) |
+| nationality | optional | Staatsangehörigkeit (max 80 Zeichen) |
+| graduation | optional | Schulabschluss (max 160 Zeichen) |
+| profession | optional | Beruf (max 80 Zeichen) |
+| education | optional | Berufsausbildung (max 80 Zeichen) |
+| experience | optional | Berufspraxis  (max 255 Zeichen) |
+| experienceYear | optional | BerufspraxisJahre<br>Format: 0-9, (max 2 Zeichen) |
+| professionState | optional | Bundesland (max 40 Zeichen) |
+| bankTransfer | Pflichtfeld | Zahlung erfolgt per Überweisung<br>Format: bool (true, false) |
+| accountOwner | optional | Kontoinhaber (max 255 Zeichen) |
+| iban | optional | IBAN (max 22 Zeichen) |
+| bic | optional | BIC (max 11 Zeichen) |
+| discount | optional | Gewährter Rabatt<br>Format: '15' (max 2 Zeichen) |
+| note | optional | Anmerkungen (max 1000 Zeichen) |
+| courseCode | Pflichtfeld | Kursnummer (max 8 Zeichen) |
+| wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
 
-#### firstName (Pflichtfeld)
-Vorname<br>
-Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen)
-
-#### lastName (Pflichtfeld)
-Nachname<br>
-Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen)
-
-#### birthday (Pflichtfeld)
-Geburtsdatum<br>
-Format: "JJJJ-MM-TT"
-
-#### street (Pflichtfeld)
-Straße<br>
-Buchstaben, Zahlen, Leerzeichen, Punkt und Bindestrich (max 80 Zeichen)
-
-#### houseNumber (optional)
-Hausnummer<br>
-Buchstaben, Zahlen, Leerzeichen und Bindestrich (max 20 Zeichen)
-
-#### postalCode (Pflichtfeld)
-Postleitzahl (max 10 Zeichen)
-
-#### city (Pflichtfeld)
-Wohnort (max 80 Zeichen)
-
-#### country (Pflichtfeld)
-Land<br>
-Format: ISO 3166 ALPHA-2, z.B "DE" (max 2 Zeichen)
-
-#### phone (Pflichtfeld)
-Telefonnummer (max 20 Zeichen)
-
-#### email (Pflichtfeld)
-E-Mail-Adresse<br>
-Format: nach RFC3696, http://tools.ietf.org/html/rfc3696 (max 255 Zeichen)
-
-#### nationality (optional)
-Staatsangehörigkeit (max 80 Zeichen)
-
-***
-
-### Angaben zur Vorbildung
-#### graduation (optional)
-Schulabschluss (max 160 Zeichen)
-
-#### profession (optional)
-Beruf (max 80 Zeichen)
-
-#### education (optional)
-Berufsausbildung (max 80 Zeichen)
-
-#### experience (optional)
-Berufspraxis  (max 255 Zeichen)
-
-#### experienceYear (optional)
-BerufspraxisJahre 
-Format: 0-9, (max 2 Zeichen)
-
-#### professionState (optional)
-Bundesland (max 40 Zeichen)
-
-***
-
-### Angaben zur Zahlungsweise
-#### bankTransfer (Pflichtfeld)
-Zahlung erfolgt per Überweisung
-Format: bool (true, false)
-
-#### accountOwner (optional)
-Kontoinhaber (max 255 Zeichen)
-
-#### iban (optional)
-IBAN (max 22 Zeichen)
-
-#### bic (optional)
-BIC (max 11 Zeichen)
-
-#### discount (optional)
-Gewährter Rabatt<br>
-Format: '15' (max 2 Zeichen)
-
-***
-
-### Zusätzliche Argumente
-#### note (optional)
-Anmerkungen (max 1000 Zeichen)
-
-#### formName (Pflichtfeld)
-Formularname (max 255 Zeichen)
-
-#### courseCode (Pflichtfeld)
-Kursnummer (max 8 Zeichen)
 
 #### courseCodeSecond (optional)
 Kursnummer (max 8 Zeichen)
