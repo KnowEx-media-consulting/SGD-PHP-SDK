@@ -112,8 +112,7 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 | postalCode | Pflichtfeld | Postleitzahl (max 10 Zeichen) |
 | city | Pflichtfeld | Wohnort (max 80 Zeichen) |
 | country | Pflichtfeld | Land<br>Format: ISO 3166 ALPHA-2, z.B "DE" (max 2 Zeichen) |
-| phone | Pflichtfeld | Telefonnummer (max 20 Zeichen) |
-| email | Pflichtfeld | E-Mail-Adresse<br>Format: nach RFC3696, http://tools.ietf.org/html/rfc3696 (max 255 Zeichen) |
+| email | optional | E-Mail-Adresse<br>Format: nach RFC3696, http://tools.ietf.org/html/rfc3696 (max 255 Zeichen) |
 | courseCode | Pflichtfeld | Kursnummer (max 8 Zeichen) |
 | courseCodeSecond | optional | Kursnummer (max 8 Zeichen) |
 | wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
