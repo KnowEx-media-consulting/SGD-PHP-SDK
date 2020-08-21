@@ -53,19 +53,12 @@ Folgende Content-Types für den Datenversand werden unterstützt:
     "https://www.sgd.de/rest/registration"
 
 
+## Kursanmeldung Formular
 
-## Ergebnis
-Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
-
-    {
-        "orderId": "SGD-0446960",
-        "eSignLink": "https://www.sgd.de/docusign/add/cc577add0400764c458b860b7466e0f2"
-    }
-
-
-
-## Mögliche Argumente
-
+#### URL
+    https://www.sgd.de/rest/registration
+    
+#### Mögliche Argumente
 | Feldname |  |  Beschreibung |
 |----------|:-------------:|------|
 | gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
@@ -95,12 +88,39 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 | courseCode | Pflichtfeld | Kursnummer (max 8 Zeichen) |
 | wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
 
+#### Ergebnis
+Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 
-#### courseCodeSecond (optional)
-Kursnummer (max 8 Zeichen)
+    {
+        "orderId": "SGD-0446960",
+        "eSignLink": "https://www.sgd.de/docusign/add/cc577add0400764c458b860b7466e0f2"
+    }
 
-#### vtnr (optional)
-Format: '775235'
+## Infomaterial anfordern Formular
 
-#### wkz (Pflichtfeld)
-Werbekennziffer (max 20 Zeichen)
+#### URL
+    https://www.sgd.de/rest/studymaterial
+    
+#### Mögliche Argumente
+| Feldname |  |  Beschreibung |
+|----------|:-------------:|------|
+| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
+| firstName | Pflichtfeld | Vorname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
+| lastName | Pflichtfeld | Nachname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
+| street | Pflichtfeld | Straße<br>Buchstaben, Zahlen, Leerzeichen, Punkt und Bindestrich (max 80 Zeichen) |
+| houseNumber | optional | Hausnummer<br>Buchstaben, Zahlen, Leerzeichen und Bindestrich (max 20 Zeichen) |
+| postalCode | Pflichtfeld | Postleitzahl (max 10 Zeichen) |
+| city | Pflichtfeld | Wohnort (max 80 Zeichen) |
+| country | Pflichtfeld | Land<br>Format: ISO 3166 ALPHA-2, z.B "DE" (max 2 Zeichen) |
+| phone | Pflichtfeld | Telefonnummer (max 20 Zeichen) |
+| email | Pflichtfeld | E-Mail-Adresse<br>Format: nach RFC3696, http://tools.ietf.org/html/rfc3696 (max 255 Zeichen) |
+| courseCode | Pflichtfeld | Kursnummer (max 8 Zeichen) |
+| courseCodeSecond | optional | Kursnummer (max 8 Zeichen) |
+| wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
+
+#### Ergebnis
+Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
+
+    {
+        "orderId": "SGD-0446960",
+    }
