@@ -116,6 +116,7 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 | courseCode | Pflichtfeld | Kursnummer (max 8 Zeichen) |
 | courseCodeSecond | optional | Kursnummer (max 8 Zeichen) |
 | wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
+| formName | optional | |
 
 #### Ergebnis
 Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
