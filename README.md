@@ -118,7 +118,8 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 | courseCodeSecond | optional | Kursnummer (max 8 Zeichen) |
 | wkz | Pflichtfeld | Werbekennziffer (max 20 Zeichen) |
 | formName | optional | |
-| phoneOptIn | optional | |
+| phoneOptIn | optional | true/false |
+| mailOptIn | optional | true/false |
 
 #### Ergebnis
 Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
