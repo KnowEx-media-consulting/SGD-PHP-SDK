@@ -127,3 +127,49 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
     {
         "orderId": "SGD-0446960",
     }
+
+## Kursliste anfragen
+
+#### URL
+    https://www.sgd.de/rest/courses
+
+#### Ergebnis
+Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
+
+    [
+        {
+            "id": 297,
+            "courseCode": "8930",
+            "title": "Außenwirtschaft und Exportmanagement"
+        },
+        {
+            "id": 296,
+            "courseCode": "8931",
+            "title": "Außenwirtschaft und Exportmanagement mit IHK-Zertifikat"
+        },...
+    ]
+ 
+## Einzelkurs anfragen
+
+#### URL
+    https://www.sgd.de/rest/course/296
+
+#### Ergebnis
+Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
+
+    {
+        "id": 296,
+        "courseCode": "8931",
+        "title": "Außenwirtschaft und Exportmanagement mit IHK-Zertifikat",
+        "description": "<p>Deutschland gehört seit vielen Jahrzehnten zu den größten Exportstaaten. Durch die Globalisierung und neue digitale Kommunikationstechnologien profitieren mittlerweile selbst kleinere bis mittlere Unternehmen vom Außenhandel. Entsprechend groß ist heute die Nachfrage nach qualifizierten Experten und Expertinnen. Mit diesem Kompaktkurs eignen Sie sich in kürzester Zeit alle Kenntnisse für den Aufbau und die Pflege des Auslandsgeschäfts an. Im Anschluss sind Sie fit für anspruchsvolle Tätigkeiten in allen Branchen.</p>",
+        "duration": 12,
+        "supportDuration": 18,
+        "graduation": "IHK-Zertifikat",
+        "graduationShort": "<p><strong>sgd-Abschlusszeugnis</strong> nach erfolgreicher Kursteilnahme</p>\r\n<p><strong>IHK-Zertifikat</strong> nach erfolgreichem Absolvieren des lehrgangsinternen Tests</p>",
+        "hoursPerWeek": "10 Stunden",
+        "addSchoolInfo": false,
+        "addCareerInfo": false,
+        "addNationalityInfo": false,
+        "price": 3228,...
+    }
+    
