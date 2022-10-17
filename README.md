@@ -177,6 +177,30 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
         ...
     ]
  
+## Master Kursliste anfragen
+
+#### URL
+    https://www.sgd.de/rest/master-courses
+
+#### Ergebnis
+Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
+
+    [
+        {
+            "id": 297,
+            "type": "Einzelkurs",
+            "courseCode": "8930",
+            "title": "Außenwirtschaft und Exportmanagement"
+        },
+        {
+            "id": 296,
+            "type": "Kursgruppe",
+            "courseCode": "8931",
+            "title": "Außenwirtschaft und Exportmanagement mit IHK-Zertifikat"
+        },
+        ...
+    ]
+
 ## Einzelkurs anfragen
 
 #### URL
