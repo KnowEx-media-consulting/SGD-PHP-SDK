@@ -61,7 +61,7 @@ Folgende Content-Types für den Datenversand werden unterstützt:
 #### Mögliche Argumente
 | Feldname |  |  Beschreibung |
 |----------|:-------------:|------|
-| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
+| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female, divers" |
 | firstName | Pflichtfeld | Vorname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | lastName | Pflichtfeld | Nachname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | birthday | Pflichtfeld | Geburtsdatum<br>Format: "JJJJ-MM-TT" |
@@ -104,7 +104,7 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 #### Mögliche Argumente
 | Feldname |  |  Beschreibung |
 |----------|:-------------:|------|
-| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
+| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female, divers" |
 | firstName | Pflichtfeld | Vorname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | lastName | Pflichtfeld | Nachname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | street | Pflichtfeld | Straße<br>Buchstaben, Zahlen, Leerzeichen, Punkt und Bindestrich (max 80 Zeichen) |
@@ -136,7 +136,7 @@ Ein erfolgreiches Ergebnis könnte folgendermaßen aussehen:
 #### Mögliche Argumente
 | Feldname |  |  Beschreibung |
 |----------|:-------------:|------|
-| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female" |
+| gender | Pflichtfeld | Geschlecht<br> Mögliche Werte: "male, female, divers" |
 | firstName | Pflichtfeld | Vorname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | lastName | Pflichtfeld | Nachname<br>Buchstaben, Leerzeichen und Bindestrich (max 80 Zeichen) |
 | phone | optional | Telefonnummer (max 20 Zeichen) |
